@@ -29,8 +29,10 @@ file.reference.clever.jar=../openLupa/dist/clever.jar
 file.reference.commons-cli-1.2.jar=libraries/commons-cli-1.2.jar
 file.reference.commons-codec-1.4.jar=libraries/commons-codec-1.4.jar
 file.reference.commons-httpclient-3.0.1.jar=libraries/commons-httpclient-3.0.1.jar
-file.reference.commons-logging-1.1.1.jar=/libraries/commons-logging-1.1.1.jar
+file.reference.commons-logging-1.1.1.jar=libraries/commons-logging-1.1.1.jar
+file.reference.commons-vfs2-2.0-tests.jar=libraries/commons-vfs2-2.0-tests.jar
 file.reference.commons-vfs2-2.0.jar=libraries/commons-vfs2-2.0.jar
+file.reference.commons-vfs2-examples-2.0.jar=libraries/commons-vfs2-examples-2.0.jar
 file.reference.jdom.jar=./libraries/jdom.jar
 file.reference.jdom.jar-1=libraries/jdom.jar
 file.reference.jline-0_9_5.jar=./libraries/jline-0_9_5.jar
@@ -73,7 +75,9 @@ javac.classpath=\
     ${file.reference.commons-vfs2-2.0.jar}:\
     ${file.reference.commons-logging-1.1.1.jar}:\
     ${file.reference.commons-httpclient-3.0.1.jar}:\
-    ${file.reference.commons-codec-1.4.jar}
+    ${file.reference.commons-codec-1.4.jar}:\
+    ${file.reference.commons-vfs2-2.0-tests.jar}:\
+    ${file.reference.commons-vfs2-examples-2.0.jar}
 # Space-separated list of extra javac options
 javac.compilerargs=
 javac.deprecation=false
