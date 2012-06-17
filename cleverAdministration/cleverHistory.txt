@@ -1,0 +1,125 @@
+listhostmanager 
+listclustermanager 
+listactiveagents -h salvo1
+listactiveagents -h cmsalvo1
+help
+mount -p /prova -wizard
+listhostmanager 
+mount -p /prova -wizard
+ls
+listhostmanager 
+mount -p /prova -wizard
+ls
+ls -n /prova
+ls -p /prova
+registervm
+createvm -n libvirt3 -h salvo1
+unregistervm -n libvirt3
+registervm
+createvm -n libvirt3 -h salvo1
+startvm -n libvirt3
+stopvm -n libvirt3 -force
+stopvm -n libvirt3 -poweroff
+startvm -n libvirt3
+stopvm -n libvirt3 -force
+stopvm -n libvirt3 -poweroff
+startvm -n libvirt3
+stopvm -n libvirt3 -poweroff
+unregistervm -n libvirt3
+unregister -n libvirt3
+help
+unregistervm -n libvirt3
+registervm
+createvm -n libvirt3 -h salvo1
+startvm -n libvirt3
+stopvm -n libvirt3 -poweroff
+unregistervm -n libvirt3
+registervm
+createvm -n libvirt3 -h salvo1
+startvm -n libvirt3
+destroy -n libvirt3 
+stopvm -n libvirt3 -poweroff
+tree
+listhostmanager 
+tree
+listhostmanager 
+tree
+upload -src /home/s89/Scrivania/UploadCommand.java -dest /prova/home/s89
+listhostmanager 
+upload -src /home/s89/Scrivania/UploadCommand.java -dest /prova/home/s89
+listhostmanager 
+upload -src /home/s89/Scrivania/UploadCommand.java -dest /prova/home/s89
+upload -src /home/s89/Scrivania/UploadCommand.java -dest /home/s89/Scrivania/Uplo
+upload -src /prova/home/s89 -dest /home/s89/Scrivania/UploadCommand.java
+upload -src /home/s89/Scrivania/UploadCommand.java -dest /prova/home/s89
+upload -src /home/s89/Scrivania/UploadCommand.java -dest /prova/home/s89/prova.ert
+upload -src /home/s89/Scrivania/UploadCommand.java -dest /prova/home/s89/
+upload -src /home/s89/Scrivania/UploadCommand.java -dest /prova
+ls -p /prova
+upload -src /home/s89/Scrivania/UploadCommand.java -dest /prova/home/s89/
+upload -dest /home/s89 -src /prova/home/s89/Scrivania/libvirt1.xml
+upload -dest /prova/home/s89 -src /home/s89/Scrivania/libvirt1.xml
+help
+upload -dest /home/s89 -src /home/s89/Scrivania/libvirt1.xml
+listhostmanager 
+upload -dest /home/s89 -src /home/s89/Scrivania/libvirt1.xml
+listhostmanager 
+mount -p /prova -wizard
+ls /prova
+ls -p /prova
+registervm 
+createvm -n libvirt1 -h salvo1
+startvm -n libvirt1
+stopvm -poweroff -n libvirt1
+unregistervm -n libvirt1
+registervm 
+createvm -n libvirt1 -h salvo1
+startvm -n libvirt1
+stopvm -poweroff -n libvirt1
+startvm -n libvirt1
+stopvm -poweroff -n libvirt1
+startvm -n libvirt1
+stopvm -n libvirt1
+stopvm -poweroff -n libvirt1
+upload -src /home/s89/Desktop/prova -dest /prova/home/s89 
+upload -src /home/s89/Desktop/prova -dest prova/home/s89 
+registervm 
+createvm -n libvirt2 -h salvo1
+startvm -n libvirt2
+stopvm -n libvirt2
+startvm -n libvirt2
+stopvm -n libvirt2 -poweroff
+startvm -n libvirt2
+stopvm -n libvirt2 -poweroff
+tree
+listvms -h salvo1
+unregistervm -n libvirt2
+listvms -h salvo1
+startvm -n libvirt1
+stopvm -n libvirt1
+tree
+mount -p /nodo1 -wizard
+help
+mount -p /nodo2 -wizard
+tree
+ls /
+ls -p /
+ls -p /nodo2
+registervm 
+createvm -n libvirt3 -h salvo1
+listvms -h salvo1
+startvm -n libvirt3
+stopvm -n libvirt3 -poweroff
+unregistervm -n libvirt3 
+unregistervm -n libvirt3
+registervm
+createvm -n libvirt3 -h salvo1
+listhostmanager 
+createvm -n libvirt2 -h roberto-1001PX
+mount -p /salvo -wizard
+registervm
+unregistervm 
+unregistervm -n libvirt3
+registervm
+listhostmanager unregistervm -n libvirt3
+unregistervm -n libvirt3

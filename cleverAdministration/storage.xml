@@ -1,0 +1,50 @@
+<agent name="StorageManagerAgent">
+  <file cleverpath="/prova/home/s89/Desktop/ubuntu.qcow2">
+    <hm name="salvo1">
+      <replica localpath="/home/s89/Desktop/openLupa/repository/b2667bd9-fe79-4c80-a6c3-4d0bd3cc78f4.qcow2">
+        <date>Jun 8, 2012 3:31:00 PM</date>
+        <size>2805465088</size>
+        <lock>0</lock>
+      </replica>
+    </hm>
+  </file>
+  <node name="nodo2" type="mount">
+    <org.clever.Common.Storage.VFSDescription>
+      <auth>
+        <username>s89</username>
+        <password>s89</password>
+      </auth>
+      <typevfs>ftp</typevfs>
+      <hostname>localhost</hostname>
+      <port>21</port>
+      <path>/</path>
+      <path1/>
+    </org.clever.Common.Storage.VFSDescription>
+  </node>
+  <node name="nodo1" type="mount">
+    <org.clever.Common.Storage.VFSDescription>
+      <auth>
+        <username>null</username>
+        <password>null</password>
+      </auth>
+      <typevfs>ftp</typevfs>
+      <hostname>null</hostname>
+      <port>null</port>
+      <path>null</path>
+      <path1/>
+    </org.clever.Common.Storage.VFSDescription>
+  </node>
+  <node name="prova" type="mount">
+    <org.clever.Common.Storage.VFSDescription>
+      <auth>
+        <username>s89</username>
+        <password>s89</password>
+      </auth>
+      <typevfs>ftp</typevfs>
+      <hostname>localhost</hostname>
+      <port>21</port>
+      <path>/</path>
+      <path1/>
+    </org.clever.Common.Storage.VFSDescription>
+  </node>
+</agent>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.clever.Common.Storage.VFSDescription>
+    <auth>
+        <username>sturi</username>
+        <password>giancarlo</password>
+    </auth>
+    <typevfs>sftp</typevfs>
+    <hostname>172.17.113.76</hostname>
+    <port>22</port>
+    <path>/Scrivania</path>
+    <!--<path1></path1>-->
+</org.clever.Common.Storage.VFSDescription>

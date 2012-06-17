@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <server>ing-clever-master.me.trigrid.it</server>
+  <port>5222</port>
+  <username>test-sabato</username>
+  <password>test-sabato</password>
+  <nickname>test-sabato</nickname>
+  <room>SHELL-visions@conference.ing-clever-master.me.trigrid.it</room>
+  <roomclients />
+</configuration>
+
