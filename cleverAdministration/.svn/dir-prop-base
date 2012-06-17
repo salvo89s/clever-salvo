@@ -1,8 +1,0 @@
-K 10
-svn:ignore
-V 34
-build
-dist
-.cleverHistory.txt.swp
-
-END
